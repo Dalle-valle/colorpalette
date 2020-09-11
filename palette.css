@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #f2aa4e;
+}
+.color_input {
+  text-align: center;
+}
+
+p {
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f2aa4e;
+}
+.selections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorselection {
+  padding: 0px 20px 0px 20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.box1 {
+  height: 20vh;
+  width: 19vw;
+  background-color: yellow;
+}
+.box2 {
+  height: 20vh;
+  width: 19vw;
+  background-color: green;
+}
+.box3 {
+  height: 20vh;
+  width: 19vw;
+  background-color: blue;
+}
+.box4 {
+  height: 20vh;
+  width: 19vw;
+  background-color: violet;
+}
+.box5 {
+  height: 20vh;
+  width: 19vw;
+  background-color: black;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  margin: 20px 15px 0px 0px;
+}
+
+.pad_text {
+  text-align: center;
+  padding: 10px;
+}
+
+input {
+  margin: 0.4rem;
+}
+label {
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f2aa4e;
+}

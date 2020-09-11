@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="palette.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/fpj1moq.css" />
+    <title>Color Selector</title>
+  </head>
+  <body>
+    <div class="selections">
+      <div class="harmonyselection">
+        <h2>Select harmony</h2>
+
+        <div>
+          <input type="radio" id="analogous" name="harmony" value="analogous" checked />
+          <label for="analogous">Analogous</label>
+        </div>
+
+        <div>
+          <input type="radio" id="monochromatic" name="harmony" value="monochromatic" />
+          <label for="monochromatic">Monochromatic</label>
+        </div>
+
+        <div>
+          <input type="radio" id="triad" name="harmony" value="triad" />
+          <label for="triad">Triad</label>
+        </div>
+
+        <div>
+          <input type="radio" id="complementary" name="harmony" value="complementary" />
+          <label for="complementary">Complementary</label>
+        </div>
+
+        <div>
+          <input type="radio" id="compound" name="harmony" value="compound" />
+          <label for="compound">Compound</label>
+        </div>
+
+        <div>
+          <input type="radio" id="shades" name="harmony" value="shades" />
+          <label for="shades">Shades</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="boxes">
+      <div class="textbox1 box">
+        <p id="hex1" class="pad_text hex">HEX: #000000</p>
+        <p id="rgb1" class="pad_text rgb">RGB: 0, 0, 0</p>
+        <p id="hsl1" class="pad_text hsl">HSL: 0, 0%, 0%</p>
+        <div class="box1 color"></div>
+      </div>
+
+      <div class="textbox2 box">
+        <p id="hex2" class="pad_text hex">HEX: #000000</p>
+        <p id="rgb2" class="pad_text rgb">RGB: 0, 0, 0</p>
+        <p id="hsl2" class="pad_text hsl">HSL: 0, 0%, 0%</p>
+        <div class="box2 color"></div>
+      </div>
+
+      <div class="textbox3 box">
+        <p id="hex3" class="pad_text hex">HEX: #000000</p>
+        <p id="rgb3" class="pad_text rgb">RGB: 0, 0, 0</p>
+        <p id="hsl3" class="pad_text hsl">HSL: 0, 0%, 0%</p>
+        <div class="box3 color"></div>
+      </div>
+
+      <div class="textbox4 box">
+        <p id="hex4" class="pad_text hex">HEX: #000000</p>
+        <p id="rgb4" class="pad_text rgb">RGB: 0, 0, 0</p>
+        <p id="hsl4" class="pad_text hsl">HSL: 0, 0%, 0%</p>
+        <div class="box4 color"></div>
+      </div>
+
+      <div class="textbox5 box">
+        <p id="hex5" class="pad_text hex">HEX: #000000</p>
+        <p id="rgb5" class="pad_text rgb">RGB: 0, 0, 0</p>
+        <p id="hsl5" class="pad_text hsl">HSL: 0, 0%, 0%</p>
+        <div class="box5 color"></div>
+      </div>
+    </div>
+
+    <div class="colorselection">
+      <h2>Select color:</h2>
+      <div class="color_input"><input id="colorvalue" type="color" /></div>
+    </div>
+    <script src="palette.js"></script>
+  </body>
+</html>
